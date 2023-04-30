@@ -1,2 +1,3 @@
 # eastech_skill_test
-# eastech_skill_test
+
+# use tailwind css and bootstrap framework 

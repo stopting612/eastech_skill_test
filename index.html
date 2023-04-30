@@ -1,12 +1,741 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-</head>
-<body>
-        
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="profile">
+          <div class="profile_img">
+            <i class="fa-solid fa-user fa-4x"></i>
+          </div>
+          <div class="profile_name">Ian Woody</div>
+          <div class="profile_description">IT officer</div>
+          <div class="profile_description">Library Building</div>
+        </div>
+        <div class="sildebar_menu">
+        <nav class="menu">
+          <div class="menu-item nav-item dropdown is-active">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Career
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              New staff/Leavers
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pay & benefits
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Medical
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Finances/Expenses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Research & knowledge transfer
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              IT support
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+        </nav>
+        <div class="quick_link_menu">
+
+          <div class="menu-item nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Quick links
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li></div>
+        </div>
+      
+      
+      </div>
+      </aside>
+      <div class="main-wrap">
+      <div class="main-container">
+        <div class="warning-notice">
+          School will be suspended all day if red or black rainstorm warnings are issued before 8pm, but classes should continue if warnings are issued after 8am
+        </div>
+        <div class="main-banner">
+          <img src="./abstract.jpg" alt="Norway" style="width:100%; height: 500px;">
+          <div class="banner-title">
+            <h1>Good Afternoon, Woody</h1>
+            <div class="banner-text">
+              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups
+              <div><button class="banner-button">Go to portal</button></iv>
+            </div>
+          </div>
+        </div>
+        <div class="news_container">
+          <div class="recent_news">Recent news<i class="fa-solid fa-rotate-right" style="margin-left: 10px;"></i></div>
+          <div class="view_all_news"><a href="#">View all news</a></div>
+        </div>
+        <div class="main_new_container">
+          <div class="news_img">123</div>
+          <div class="news_text">
+            <div class="new_text"><a href="#" class="news_click">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</a></div>
+            <div class="new_text"><a href="#" class="news_click">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</a></div>
+            <div class="new_text"><a href="#" class="news_click">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</a></div>
+            <div class="new_text"><a href="#" class="news_click">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</a></div>
+          </div>
+        </div>
+        <div class="my_falvour_container">
+          <div class="falvour_title_container">
+            <div class="falvour_title"><h1>My Favorites</h1></div>
+            <div class="falvour_setting" ><i class="fa-solid fa-gear fa-xl"></i></div>
+          </div>
+          <div class="falvour_container_list">
+            <div class="falvour_container_1">
+              <div class="falvour_container_title">Apply Leave</div>
+              <div class="falvour_container_description">Leave Application</div>
+            </div>
+            <div class="falvour_container_2">
+              <div class="falvour_container_title">Apply Leave</div>
+              <div class="falvour_container_description">Leave Application</div>
+            </div>
+            <div class="falvour_container_3">
+              <div class="falvour_container_title">Apply Leave</div>
+              <div class="falvour_container_description">Leave Application</div>
+            </div>
+            <div class="falvour_container_4">
+              <div class="falvour_container_title">Apply Leave</div>
+              <div class="falvour_container_description">Leave Application</div>
+            </div>
+            <div class="falvour_container_5">
+              <div class="falvour_container_title">Apply Leave</div>
+              <div class="falvour_container_description">Leave Application</div>
+            </div>
+
+          </div>
+        </div>
+        <div class="dashboard_list container ">
+          <div class="row">
+            <div class="dashboard_container col-lg-6 col-md-6 col-sm-12">
+              <div  class="inside_container">
+                <div class="apply_action"><div class="action_title">Leave system</div><div><button class="action_btn">Apply leave</button></div></div>
+                <div class="apply_container">
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apply_text">
+                    <div class="apply_title">Your application for leave has been approved</div>
+                    <div class="apply_description">
+                      <div class="leave_type">
+                        <div>Annual leave</div>
+                        <div>leave type</div>
+                      </div>
+                      <div class="start_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>Start time</div>
+                      </div>
+                      <div class="end_time">
+                        <div>2023/05/12 10:00am</div>
+                        <div>End time</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div></div>
+            </div>
+            <div class="dashboard_container col-lg-6 col-md-6 col-sm-12">
+              <div  class="inside_container">
+              <div class="apply_action">
+                <div class="action_title">Payroll system</div>
+                <div class="action_link"><a href="#" >View all</a>
+                </div>
+              </div>  
+              <div class="apply_container">
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="apply_text">
+                  
+                  <div class="apply_description">
+                    <div class="leave_type">
+                      <div>Autopay</div>
+                      <div>Payment method</div>
+                    </div>
+                    <div class="start_time">
+                      <div>2023/05/12 10:00am</div>
+                      <div>Date</div>
+                    </div>
+                    <div class="downLink">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="dashboard_container col-lg-6 col-md-6 col-sm-12">
+              <div  class="inside_container">
+              <div class="apply_action">
+                <div class="action_title">Library system</div>
+                <div class="action_link"><a href="#" >View all</a>
+                </div>
+            </div>
+              <div class="apply_container">
+                <table id="myTable" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Book Name</th>
+                      <th>Book Drop</th>
+                      <th>Return Date</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Harry potter</td>
+                      <td>Dental Library</td>
+                      <td>2023/02/17</td>
+
+                    </tr>
+                    <tr>
+                      <td>Harry potter2</td>
+                      <td>Main Library</td>
+                      <td>2023/03/17</td>
+
+                    </tr>
+                    <tr>
+                      <td>Harry potter3</td>
+                      <td>Dental Library</td>
+                      <td>2023/04/17</td>
+
+                    </tr>
+                    <tr>
+                      <td>Harry potter4</td>
+                      <td>Dental Library</td>
+                      <td>2023/04/18</td>
+
+                    </tr>
+                    <tr>
+                      <td>Harry potter</td>
+                      <td>Dental Library</td>
+                      <td>2023/02/17</td>
+
+                    </tr>
+                    <tr>
+                      <td>Harry potter</td>
+                      <td>Dental Library</td>
+                      <td>2023/02/17</td>
+
+                    </tr>
+                  </tbody>
+                </table>
+
+              
+              </div></div>
+            </div>
+            <div class="dashboard_container col-lg-6 col-md-6 col-sm-12">
+              <div  class="inside_container">
+              <div class="apply_action">
+                <div class="action_title">Booking</div>
+                <div class="action_link"><a href="#" >View all</a></div>
+              </div>
+              <div class="apply_container">
+                  <table id="BookingTable" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Tme</th>
+                        <th>Provider</th>
+                        <th>Type</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Woody Chu</td>
+                        <td>20 Feb 2023 <br/> 10:00am</td>
+                        <td>Dr Kee Chu</td>
+                        <td><button class="dental_btn">Dental</button></td>
+                      </tr>
+                      <tr>
+                        <td>Tom Chu</td>
+                        <td>20 Feb 2023 <br/> 10:00am</td>
+                        <td>Dr Kee Chu</td>
+                        <td><button class="phy_btn">Phy</button></td>
+  
+                      </tr>
+                      <tr>
+                        <td>Harry potter3</td>
+                        <td>20 Feb 2023 <br/> 10:00am</td>
+                        <td>Dr Kee Chu</td>
+                        <td><button class="medical_btn">Medical</button></td>
+  
+                      </tr>
+                      <tr>
+                        <td>Harry potter4</td>
+                        <td>20 Feb 2023 <br/> 10:00am</td>
+                        <td>Dr Kee Chu</td>
+                        <td><button class="dental_btn">Dental</button></td>
+  
+                      </tr>
+                    </tbody>
+                  </table>
+              </div></div>
+            </div>
+          </div>
+          <div class="row " >
+            <div class="dashboard_container approvals_container col-md-12 col-lg-3">
+              
+              <div  class="inside_container">
+              <div class="apply_action">
+                <div class="action_title">Approvals</div>
+              </div>
+              <div class="aprroval_content">
+                <div class="approval_box"><div>ECA</div><div class="approval_num">1</div></div>
+                <div class="approval_box"><div>PRSD</div><div class="approval_num">10</div></div>
+                <div class="approval_box"><div>Leave</div><div class="approval_num">2</div></div>
+                <div class="approval_box"><div>FBS</div> <div class="approval_num">4</div></div>
+
+              </div></div>
+            </div>
+    
+            
+            <div class="dashboard_container claim_container col-md-12 col-lg-9">
+              <div  class="inside_container">
+              <div class="apply_action">
+                <div class="action_title">Claims</div>
+                <div class="action_link"><a href="#" >View all</a></div>
+              </div>
+              <div class="apply_container">
+                <table id="ClaimTable" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Department</th>
+                      <th>Arrival</th>
+                      <th>Claim amount</th>
+                      <th>Travel Level</th>
+                      <th>Filling Date</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>London</td>
+                      <td>Hong Kong</td>
+                      <td>1400 HKD</td>
+                      <td>Business</td>
+                      <td>20 Feb 2023</td>
+                      <td>Waiting for approval</td>
+                    </tr>
+                    <tr>
+                      <td>London</td>
+                      <td>Hong Kong</td>
+                      <td>1400 HKD</td>
+                      <td>Business</td>
+                      <td>20 Feb 2023</td>
+                      <td>Waiting for approval</td>
+                    </tr>
+                   
+                  </tbody>
+                </table>
+
+              
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="date-container">
+        <div class="search-container">
+          <form class="flex items-center">   
+            <label for="simple-search" class="sr-only">Search</label>
+            <div class="relative w-full">
+              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+              </div>
+              <input type="text" id="simple-search" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+            </div>
+
+          </form>
+        </div>
+        <div class="weather_container">
+          <div class="weather_wrap_container">
+            <div class="background">
+              <div class="Circle1"></div>
+              <div class="Circle2"></div>
+              <div class="Circle3"></div>
+              <div class="content">
+                <h1 class="Condition"> Sunny</h1>
+                <h1 class="Temp">23<span id="C">&#8451;</span></h1>
+                <div class="condition_description">
+                  <div class="date_description1">Monday, 21 september</div>
+                  <div ></div>
+                </div>
+                <h1 class="Time">09:35</h1>
+                
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="calendar_container" style="border-bottom: 2px solid #efefef;">
+          <div class="page">
+            <!-- Responsive calendar - START -->
+            <div class="responsive-calendar">
+              <div class="controls">
+                  <a class="pull-left" data-go="prev"><div class="btn"><i class="icon-chevron icon-chevron-rotate"></i></div></a>
+                  <h4><span data-head-year></span> <span data-head-month></span></h4>
+                  <a class="pull-right" data-go="next"><div class="btn"><i class="icon-chevron"></i></div></a>
+              </div><hr/>
+              <div class="day-headers">
+                <div class="day header">Mon</div>
+                <div class="day header">Tue</div>
+                <div class="day header">Wed</div>
+                <div class="day header">Thu</div>
+                <div class="day header">Fri</div>
+                <div class="day header">Sat</div>
+                <div class="day header">Sun</div>
+              </div>
+              <div class="days" data-group="days">
+                <!-- the place where days will be generated -->
+              </div>
+            </div>
+            <!-- Responsive calendar - END -->
+            <!-- Placeholder -->
+            <div class="responsive-calendar-placeholder">
+              
+            </div>
+          </div>
+        </div>
+        <div class="daily_event_container">
+          <details class="details-example">
+            <summary>Daily Event</summary>
+            <ul>
+                <li><div class="event_detal">
+                  <div>Ussw regular meeting</div>
+                  <div>10:00am - 12:00pm</div>
+                </div></li>
+                <li><div class="event_detal">
+                  <div>Ussw regular meeting</div>
+                  <div>10:00am - 12:00pm</div>
+                </div></li>
+            </ul>
+        </details>
+
+        <details class="details-example">
+          <summary>Upcoming Events</summary>
+          <ul>
+              <li><div class="event_detal">
+                <div>Ussw regular meeting</div>
+                <div>10:00am - 12:00pm</div>
+              </div></li>
+              <li><div class="event_detal">
+                <div>Ussw regular meeting</div>
+                <div>10:00am - 12:00pm</div>
+              </div></li>
+          </ul>
+        </details>
+        </div>
+        <div class="more_container"><div class="approval_num more_num">4</div>more...</div>
+      
+
+      </div>
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+
+
+    <script src="index.js"></script>
+  </body>
 </html>
